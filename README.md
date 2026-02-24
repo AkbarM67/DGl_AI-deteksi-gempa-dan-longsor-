@@ -86,21 +86,6 @@ flutterfire configure
 
 ---
 
-## Dokumentasi
-
-### File Dokumentasi Lengkap:
-- **[SUMMARY.md](SUMMARY.md)** - Overview & quick summary
-- **[FITUR_BARU.md](FITUR_BARU.md)** - Penjelasan detail fitur v1.1.0
-- **[TESTING_GUIDE.md](TESTING_GUIDE.md)** - Panduan testing step-by-step
-- **[ARCHITECTURE.md](ARCHITECTURE.md)** - Architecture & flow diagram
-
-### Quick Links:
-- [Cara Menggunakan](#cara-menggunakan)
-- [Testing](#testing)
-- [Architecture](#architecture)
-- [Contributing](#contributing)
-
----
 
 ## Cara Menggunakan
 
@@ -161,7 +146,6 @@ flutter analyze
 ```
 
 ### Manual Testing
-Lihat **[TESTING_GUIDE.md](TESTING_GUIDE.md)** untuk test cases lengkap.
 
 **Quick Test:**
 ```
@@ -184,22 +168,6 @@ Lihat **[TESTING_GUIDE.md](TESTING_GUIDE.md)** untuk test cases lengkap.
 - **Maps**: Google Maps Flutter
 - **Notifications**: Firebase Cloud Messaging, Local Notifications
 
-### Project Structure
-```
-lib/
-├── core/
-│   ├── services/      # Business logic & API calls
-│   └── utils/         # Helper functions
-├── models/            # Data models
-├── providers/         # State management
-└── features/          # UI pages
-    ├── dashboard/
-    ├── landslide/
-    ├── analytics/     # NEW
-    └── settings/      # NEW
-```
-
-Lihat **[ARCHITECTURE.md](ARCHITECTURE.md)** untuk detail lengkap.
 
 ---
 
@@ -249,20 +217,6 @@ intl: ^0.19.0                  # Date formatting
 - [x] 4-tab navigation
 - [x] UI/UX improvements
 
-### v1.2.0 (Planned)
-- [ ] Machine Learning integration (TensorFlow Lite)
-- [ ] Historical data charts (fl_chart)
-- [ ] Export data (CSV/PDF)
-- [ ] Offline mode
-- [ ] Multi-language support
-
-### v2.0.0 (Future)
-- [ ] IoT sensor integration
-- [ ] Social features (share status)
-- [ ] Community alert system
-- [ ] Emergency contact quick dial
-- [ ] AR evacuation guide
-
 ---
 
 ## Contributing
@@ -291,7 +245,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Team
 
-**Developer**: [Your Name]
+**Developer**: Akbar Maulana
 **Project**: Sistem Peringatan Dini Cerdas
 **Purpose**: Disaster Preparedness & Early Warning
 
@@ -308,7 +262,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- Email: your.email@example.com
+- Email: akbar.maulana000501@gmail.com
 - Issues: [GitHub Issues](https://github.com/yourusername/dgl_ai/issues)
 - Docs: [Documentation](./FITUR_BARU.md)
 
