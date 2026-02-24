@@ -1,6 +1,6 @@
-# 🌊 dglAI - Disaster Geo-Location AI
+# dglAI - Disaster Geo-Location AI
 
-**Sistem Peringatan Dini Cerdas (AI-Early Warning System)**
+Sistem Peringatan Dini Cerdas (AI-Early Warning System)
 
 Aplikasi mobile berbasis AI untuk deteksi dini dan peringatan bencana gempa bumi & tanah longsor dengan personalisasi alert berdasarkan lokasi dan preferensi pengguna.
 
@@ -10,27 +10,27 @@ Aplikasi mobile berbasis AI untuk deteksi dini dan peringatan bencana gempa bumi
 
 ---
 
-## 🎯 Fitur Utama
+## Fitur Utama
 
-### 🚨 Real-Time Disaster Monitoring
+### Real-Time Disaster Monitoring
 - **Gempa Bumi**: Data real-time dari BMKG API
 - **Tanah Longsor**: Analisis curah hujan & kondisi geografis
 - **GPS Tracking**: Deteksi lokasi otomatis untuk perhitungan jarak
 - **Risk Engine**: Algoritma cerdas untuk analisis tingkat bahaya
 
-### 👤 Personalisasi Alert (NEW! v1.1.0)
+### Personalisasi Alert (v1.1.0)
 - **Custom Alert Radius**: Atur zona peringatan 50-1000 km
 - **Magnitude Filter**: Notifikasi hanya untuk gempa ≥ threshold
 - **Toggle Notifications**: Kontrol jenis bencana yang ingin dipantau
 - **Smart Filtering**: Alert hanya untuk bencana yang relevan
 
-### 📊 Analytics Dashboard (NEW! v1.1.0)
+### Analytics Dashboard (v1.1.0)
 - **Real-Time Statistics**: Magnitudo, kedalaman, jarak, curah hujan
 - **Trend Analysis**: Pola aktivitas bencana 7 hari terakhir
 - **AI Recommendations**: Saran keamanan berdasarkan kondisi terkini
 - **Multi-Disaster View**: Monitoring gempa & longsor dalam satu dashboard
 
-### 🗺️ Visualisasi & Navigasi
+### Visualisasi & Navigasi
 - **Interactive Maps**: Google Maps dengan marker episentrum
 - **4-Tab Navigation**: Gempa | Longsor | Analytics | Pengaturan
 - **Detail Analysis**: Informasi lengkap setiap kejadian bencana
@@ -38,22 +38,22 @@ Aplikasi mobile berbasis AI untuk deteksi dini dan peringatan bencana gempa bumi
 
 ---
 
-## 📱 Screenshots
+## Screenshots
 
 ```
 ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
 │   Gempa     │  │   Longsor   │  │  Analytics  │  │ Pengaturan  │
 │  Dashboard  │  │  Dashboard  │  │  Dashboard  │  │   Settings  │
 │             │  │             │  │             │  │             │
-│  🌊 5.5 SR  │  │  🏔️ 85mm   │  │  📊 Stats   │  │  ⚙️ Radius  │
-│  WASPADA    │  │  WASPADA    │  │  📈 Trend   │  │  🔔 Toggle  │
-│  150 km     │  │  25° slope  │  │  💡 Tips    │  │  ⚡ Filter  │
+│  5.5 SR     │  │  85mm       │  │  Stats      │  │  Radius     │
+│  WASPADA    │  │  WASPADA    │  │  Trend      │  │  Toggle     │
+│  150 km     │  │  25° slope  │  │  Tips       │  │  Filter     │
 └─────────────┘  └─────────────┘  └─────────────┘  └─────────────┘
 ```
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Flutter SDK 3.8.1+
@@ -86,7 +86,7 @@ flutterfire configure
 
 ---
 
-## 📚 Dokumentasi
+## Dokumentasi
 
 ### File Dokumentasi Lengkap:
 - **[SUMMARY.md](SUMMARY.md)** - Overview & quick summary
@@ -95,20 +95,20 @@ flutterfire configure
 - **[ARCHITECTURE.md](ARCHITECTURE.md)** - Architecture & flow diagram
 
 ### Quick Links:
-- 📖 [Cara Menggunakan](#-cara-menggunakan)
-- 🧪 [Testing](#-testing)
-- 🏗️ [Architecture](#-architecture)
-- 🤝 [Contributing](#-contributing)
+- [Cara Menggunakan](#cara-menggunakan)
+- [Testing](#testing)
+- [Architecture](#architecture)
+- [Contributing](#contributing)
 
 ---
 
-## 💡 Cara Menggunakan
+## Cara Menggunakan
 
 ### 1. Setup Preferensi (Pertama Kali)
 ```
 1. Buka aplikasi
 2. Izinkan akses lokasi
-3. Tap tab "Pengaturan" (⚙️)
+3. Tap tab "Pengaturan"
 4. Atur radius alert (default: 500 km)
 5. Atur magnitudo minimum (default: 5.0 SR)
 6. Toggle on/off untuk jenis bencana
@@ -133,12 +133,12 @@ flutterfire configure
 
 ### 4. Notifikasi Otomatis
 ```
-✅ Notifikasi otomatis terkirim jika:
+Notifikasi otomatis terkirim jika:
    - Bencana dalam radius alert Anda
    - Magnitudo ≥ threshold yang diatur
    - Toggle notifikasi ON
 
-❌ Tidak ada notifikasi jika:
+Tidak ada notifikasi jika:
    - Bencana di luar zona alert
    - Magnitudo < threshold
    - Toggle notifikasi OFF
@@ -146,7 +146,7 @@ flutterfire configure
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Run Tests
 ```bash
@@ -174,7 +174,7 @@ Lihat **[TESTING_GUIDE.md](TESTING_GUIDE.md)** untuk test cases lengkap.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Tech Stack
 - **Framework**: Flutter 3.8.1
@@ -195,15 +195,15 @@ lib/
 └── features/          # UI pages
     ├── dashboard/
     ├── landslide/
-    ├── analytics/     # ✨ NEW
-    └── settings/      # ✨ NEW
+    ├── analytics/     # NEW
+    └── settings/      # NEW
 ```
 
 Lihat **[ARCHITECTURE.md](ARCHITECTURE.md)** untuk detail lengkap.
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ### Core
 ```yaml
@@ -231,9 +231,9 @@ intl: ^0.19.0                  # Date formatting
 
 ---
 
-## 🎯 Roadmap
+## Roadmap
 
-### ✅ v1.0.0 (Completed)
+### v1.0.0 (Completed)
 - [x] Real-time earthquake monitoring
 - [x] Landslide risk detection
 - [x] GPS location tracking
@@ -241,7 +241,7 @@ intl: ^0.19.0                  # Date formatting
 - [x] Push notifications
 - [x] Google Maps integration
 
-### ✅ v1.1.0 (Current)
+### v1.1.0 (Current)
 - [x] User settings & preferences
 - [x] Analytics dashboard
 - [x] Zone-based alert system
@@ -249,14 +249,14 @@ intl: ^0.19.0                  # Date formatting
 - [x] 4-tab navigation
 - [x] UI/UX improvements
 
-### 🔮 v1.2.0 (Planned)
+### v1.2.0 (Planned)
 - [ ] Machine Learning integration (TensorFlow Lite)
 - [ ] Historical data charts (fl_chart)
 - [ ] Export data (CSV/PDF)
 - [ ] Offline mode
 - [ ] Multi-language support
 
-### 🚀 v2.0.0 (Future)
+### v2.0.0 (Future)
 - [ ] IoT sensor integration
 - [ ] Social features (share status)
 - [ ] Community alert system
@@ -265,7 +265,7 @@ intl: ^0.19.0                  # Date formatting
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Kontribusi sangat diterima! Silakan:
 
@@ -283,13 +283,13 @@ Kontribusi sangat diterima! Silakan:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👥 Team
+## Team
 
 **Developer**: [Your Name]
 **Project**: Sistem Peringatan Dini Cerdas
@@ -297,7 +297,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **BMKG** - Earthquake data API
 - **Open-Meteo** - Weather data API
@@ -306,20 +306,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support
+## Support
 
-- 📧 Email: your.email@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/dgl_ai/issues)
-- 📖 Docs: [Documentation](./FITUR_BARU.md)
-
----
-
-## 🌟 Star History
-
-Jika aplikasi ini bermanfaat, berikan ⭐ di GitHub!
+- Email: your.email@example.com
+- Issues: [GitHub Issues](https://github.com/yourusername/dgl_ai/issues)
+- Docs: [Documentation](./FITUR_BARU.md)
 
 ---
 
-**Built with ❤️ for Disaster Preparedness**
+## Star History
+
+Jika aplikasi ini bermanfaat, berikan star di GitHub!
+
+---
+
+**Built with care for Disaster Preparedness**
 
 *dglAI - Protecting Lives Through Technology*
